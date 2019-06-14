@@ -1,7 +1,7 @@
 """
 Created on Mon Nov 27 16:10:58 2017
 
-@author: Anna Truelove and JaBria Owens
+@author: Anna Truelove
 
 This code assumes that both words used in the blend are real words that can
 be found in the CMU dictionary"""
