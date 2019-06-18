@@ -359,7 +359,7 @@ blend("america", "cards") # americards
 
 
 """ 2+ Syllables Each Test """ 
-# this function was much more complex and so we did not have time to fix all 
+# this function was much more complex and I did not have time to fix all 
 # the bugs, but it works for the most part
 blend("argue", "haggle") # argle
 blend("aggravate", "annoy") # aggranoy
