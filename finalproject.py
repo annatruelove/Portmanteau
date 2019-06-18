@@ -8,6 +8,7 @@ be found in the CMU dictionary"""
 
 import nltk
 from nltk.corpus import cmudict
+nltk.download('cmudict')
 from curses.ascii import isdigit
 import pyphen # hyphenator we used, to access the hyphenator when running our 
 # code, run "pip install pyphen" in the terminal.
