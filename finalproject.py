@@ -230,6 +230,8 @@ def twoAndMore(word1, word2):
 """Function to blend 2 words together"""
 def blend(word1, word2):
     blend = ""
+    if len(word1) == 0 or len(word2) == 0:
+        return "Both words must include at least 1 character"
     # if the words overlap
     if isOverlap(word1, word2):
         return  overlap(word1, word2)
@@ -368,4 +370,3 @@ blend("aggravate", "provoke") # aggravoke
 blend("computer", "literate") # computerate
 blend("flicker", "glimmer") # flimmer
 blend("hectic", "active") # hective
-
