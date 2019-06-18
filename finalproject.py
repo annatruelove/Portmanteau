@@ -230,8 +230,8 @@ def twoAndMore(word1, word2):
 """Function to blend 2 words together"""
 def blend(word1, word2):
     blend = ""
-    if len(word1) == 0 or len(word2) == 0:
-        return "Both words must include at least 1 character"
+    if len(word1) == 0 or len(word2) == 0 or word1 not in d or word2 not in d:
+        return "Both words must include at least 1 character and be valid CMU dictionary words"
     # if the words overlap
     if isOverlap(word1, word2):
         return  overlap(word1, word2)
@@ -245,7 +245,6 @@ def blend(word1, word2):
     if numSyl(word1) > 1 and numSyl(word2) > 1:
         return twoAndMore(word1, word2)
     return blend
-
 
 """TESTS USING BLENDED WORDS CORPUS"""
 
