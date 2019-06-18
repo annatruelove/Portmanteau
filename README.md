@@ -1,4 +1,4 @@
-# portmanteau
+# Portmanteau
 
 
 This program creates a lexical blend of words. It takes in two words, parses them, and determines the best way to blend them. 
